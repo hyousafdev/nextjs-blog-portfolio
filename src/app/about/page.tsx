@@ -3,7 +3,7 @@ import { siteConfig, skills } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "About",
-  description: `About ${siteConfig.name}, a web developer moving from WordPress to modern frontend development.`,
+  description: `About ${siteConfig.name}, a web developer with WordPress, Shopify and Webflow experience, moving to modern frontend development.`,
 };
 
 export default function AboutPage() {
@@ -14,7 +14,8 @@ export default function AboutPage() {
       <div className="mt-6 space-y-4 text-foreground/80">
         <p>
           I am {siteConfig.name}, a web developer with 3 years of experience
-          building websites with WordPress.
+          building websites with WordPress. I have also worked hands-on with
+          Shopify and Webflow.
         </p>
         <p>
           I am now focusing on frontend development. I work with React, Redux
