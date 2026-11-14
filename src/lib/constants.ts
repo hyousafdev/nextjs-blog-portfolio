@@ -5,6 +5,7 @@ export const siteConfig = {
   title: "Portfolio and Blog",
   description:
     "Personal portfolio and blog about web development with Next.js, React, and TypeScript.",
+  url: "https://your-site.vercel.app",
   githubUrl: "https://github.com/hyousafdev",
   email: "hassanyousaf.dev@gmail.com",
 };
