@@ -6,6 +6,7 @@ export const siteConfig = {
   description:
     "Personal portfolio and blog about web development with Next.js, React, and TypeScript.",
   githubUrl: "https://github.com/hyousafdev",
+  email: "hassanyousaf.dev@gmail.com",
 };
 
 export const navLinks: NavLink[] = [
@@ -14,4 +15,18 @@ export const navLinks: NavLink[] = [
   { label: "Projects", href: "/projects" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
+];
+
+export const skills: string[] = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "WordPress",
+  "Shopify",
+  "Webflow",
+  "React",
+  "Redux Toolkit",
+  "Tailwind CSS",
+  "Next.js",
+  "TypeScript",
 ];
