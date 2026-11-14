@@ -10,3 +10,12 @@ export type Project = {
   githubUrl?: string;
   liveUrl?: string;
 };
+
+export type Post = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  tags: string[];
+  content: string[];
+};
